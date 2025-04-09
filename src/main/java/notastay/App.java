@@ -19,6 +19,7 @@ public class App extends Application {
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("colorPicker"), 600, 400);
         stage.setResizable(false);
+        stage.setTitle("Nadia Henrich Romero");
         stage.setScene(scene);
         stage.show();
     }
