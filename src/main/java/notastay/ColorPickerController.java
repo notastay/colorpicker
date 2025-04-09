@@ -28,6 +28,8 @@ public class ColorPickerController {
     @FXML
     public void initialize() {
         redSlider.valueProperty().addListener((observable, oldValue, newValue)-> updateFromSlider(redSlider, redTField));
+        greenSlider.valueProperty().addListener((observable, oldValue, newValue)-> updateFromSlider(greenSlider, greenTField));
+        blueSlider.valueProperty().addListener((observable, oldValue, newValue)-> updateFromSlider(blueSlider, blueTField));
     }
 
     private void updateFromSlider(Slider slider, TextField textField) {
