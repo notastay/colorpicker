@@ -34,6 +34,8 @@ public class ColorPickerController {
         redTField.textProperty().addListener((observable, oldValue, newValue)-> updateFromTField(redTField, redSlider));
         greenTField.textProperty().addListener((observable, oldValue, newValue)-> updateFromTField(greenTField, greenSlider));
         blueTField.textProperty().addListener((observable, oldValue, newValue)-> updateFromTField(blueTField, blueSlider));
+
+        updateColor();
     }
 
     private void updateFromSlider(Slider slider, TextField textField) {
