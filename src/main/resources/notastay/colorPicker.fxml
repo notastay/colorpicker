@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="notastay.ColorPickerController">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@css/temita.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="notastay.ColorPickerController">
    <children>
-      <Pane fx:id="colorPanel" prefHeight="335.0" prefWidth="193.0">
+      <Pane fx:id="colorPanel" prefHeight="315.0" prefWidth="181.0" styleClass="Pane">
          <HBox.margin>
             <Insets bottom="30.0" left="30.0" right="10.0" top="30.0" />
          </HBox.margin>
