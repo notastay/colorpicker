@@ -45,6 +45,9 @@
                      </HBox.margin>
                   </Slider>
                </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
             </HBox>
             <HBox prefHeight="67.0" prefWidth="222.0">
                <children>
